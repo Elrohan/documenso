@@ -9,5 +9,6 @@ Modifications, toutes visuelles :
 - `apps/remix/app/utils/meta.ts` : titres d'onglet et description ;
 - `apps/remix/public/` : icônes (favicon) et manifeste ;
 - `packages/lib/translations/{fr,en}/web.po` : titre d'onglet de la page de signature.
+- `apps/remix/app/routes/_recipient+/sign.$token+/complete.tsx` : bouton « Partager » retiré de la page de confirmation du signataire.
 
 Aucune modification du fonctionnement, de la sécurité ou des données. Construction : `docker build -f docker/Dockerfile .`
