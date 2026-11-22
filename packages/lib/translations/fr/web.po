@@ -10991,7 +10991,7 @@ msgstr "Signer le document"
 
 #: apps/remix/app/routes/_recipient+/_layout.tsx
 msgid "Sign Document - Documenso"
-msgstr "Signer le document - Documenso"
+msgstr "Signer le document - Alphard Law"
 
 #: apps/remix/app/components/embed/multisign/multi-sign-document-list.tsx
 msgid "Sign Documents"

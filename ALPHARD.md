@@ -7,6 +7,7 @@ Modifications, toutes visuelles :
 - `packages/ui/styles/theme.css` : couleurs de la charte (corail et marine), angles réduits ;
 - `apps/remix/app/components/general/branding-logo.tsx`, `branding-logo-icon.tsx` : logo et icône du cabinet ;
 - `apps/remix/app/utils/meta.ts` : titres d'onglet et description ;
-- `apps/remix/public/` : icônes (favicon) et manifeste.
+- `apps/remix/public/` : icônes (favicon) et manifeste ;
+- `packages/lib/translations/{fr,en}/web.po` : titre d'onglet de la page de signature.
 
 Aucune modification du fonctionnement, de la sécurité ou des données. Construction : `docker build -f docker/Dockerfile .`
