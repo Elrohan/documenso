@@ -45,6 +45,13 @@ export default function RecipientLayout({ matches }: Route.ComponentProps) {
       >
         <Outlet />
       </main>
+
+      {/* AGPL-3.0, article 13 : accès au code source de l'instance modifiée. */}
+      <footer className="pb-4 text-center text-muted-foreground/50 text-xs">
+        <a href="https://github.com/Elrohan/documenso/tree/alphard" target="_blank" rel="noreferrer">
+          Code source
+        </a>
+      </footer>
     </div>
   );
 }
